@@ -1,0 +1,87 @@
+{
+  "products": [
+    {
+      "id": "ca92",
+      "name": "laptop",
+      "quantity": 2
+    },
+    {
+      "id": "5577",
+      "name": "speaker",
+      "quantity": 2
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "productId": 1,
+      "quantity": 2,
+      "status": "completed"
+    },
+    {
+      "id": "2",
+      "productId": 2,
+      "quantity": 1,
+      "status": "pending"
+    },
+    {
+      "id": "3",
+      "productId": 3,
+      "quantity": 1,
+      "status": "completed"
+    },
+    {
+      "id": "6b17",
+      "productId": "124",
+      "quantity": 123,
+      "status": "completed"
+    },
+    {
+      "id": "4b5d",
+      "productId": "14",
+      "quantity": 67,
+      "status": "pending"
+    },
+    {
+      "id": "a911",
+      "productId": "16",
+      "quantity": 1,
+      "status": "pending"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "email": "user@example.com",
+      "password": "password456"
+    },
+    {
+      "id": "78aa",
+      "email": "ramkishore@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "7e8a",
+      "username": "ram kishore",
+      "email": "23cs176@skcet.ac.in",
+      "password": "123456"
+    },
+    {
+      "id": "50f4",
+      "username": "rudra",
+      "email": "rudra@123.com",
+      "password": "12435678"
+    },
+    {
+      "id": "f8cc",
+      "username": "quitq",
+      "email": "r6q6e@123.123",
+      "password": "g1y2rfr12"
+    }
+  ]
+}
