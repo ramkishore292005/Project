@@ -1,0 +1,142 @@
+.home{
+  background-image: url("https://img.freepik.com/premium-photo/automated-inventory-management-system-wallpaper_987764-40035.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    color: #ffd700;
+}
+
+.home-container {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffd700;
+  padding: 20px;
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+}
+
+.navbar h1 {
+  font-size: 1.8rem;
+  margin: 0;
+  color: white;
+  text-shadow: 
+    1px 1px 0px #000, 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000, 
+    1px -1px 0px #000;
+}
+
+.navbar nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.navbar nav ul li {
+  margin-left: 20px;
+}
+
+.navbar nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.5);;
+}
+
+.dashboard {
+  padding: 40px;
+  text-align: center;
+}
+.bar{
+  color: red;
+  text-shadow: 
+    1px 1px 0px #000, 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000, 
+    1px -1px 0px #000;
+}
+h1 {
+  color: ligh;
+  font-size: 2.5rem;
+  text-shadow: 
+    1px 1px 0px #000, 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000, 
+    1px -1px 0px #000;
+}
+
+h2 {
+  margin-bottom: 40px;
+  color: white;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.stat-card {
+  background-color: rgba(0, 0, 0, 0.5);;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+}
+
+.stat-card h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: red;
+  text-shadow: 
+    1px 1px 0px #000, 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000, 
+    1px -1px 0px #000;
+}
+
+.stat-card p {
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.stat-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 24px rgba(0.5, 0.5, 0.5, 0.5);
+}
+
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
